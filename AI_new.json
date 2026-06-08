@@ -1207,7 +1207,7 @@
                 "dynamic": false,
                 "info": "",
                 "input_types": [],
-                "load_from_db": false,
+                "load_from_db": true,
                 "name": "bot_token",
                 "override_skip": false,
                 "password": true,
@@ -1217,7 +1217,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "TELEGRAM_BOT_TOKEN"
               },
               "chat_id": {
                 "_input_type": "StrInput",
