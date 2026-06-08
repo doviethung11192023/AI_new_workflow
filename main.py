@@ -6,6 +6,7 @@ print("Đang khởi động quy trình tổng hợp tin tức AI...")
 # Thuộc tính fallback_to_env_vars=True giúp bảo mật, tự động lấy API Key từ biến môi trường của GitHub.
 result = run_flow_from_json(
     flow="AI_new.json",
+    input_value="Kích hoạt quét tin tức",
     fallback_to_env_vars=True
 )
 
