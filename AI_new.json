@@ -226,7 +226,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "https://openai.com/news/rss.xml \nhttps://deepmind.google/blog/rss.xml \nhttps://blog.google/technology/ai/rss/ \nhttps://www.technologyreview.com/topic/artificial-intelligence/feed/ \nhttps://huggingface.co/blog/feed.xml \nhttps://hnrss.org/newest?q=AI https://rss.arxiv.org/rss/cs.AI"
+                "value": "https://anthropicnews.com/rss.xml \nhttps://research.google/blog/rss/ \nhttps://openai.com/news/rss.xml \nhttps://deepmind.google/blog/rss.xml \nhttps://blog.google/technology/ai/rss/ \nhttps://www.technologyreview.com/topic/artificial-intelligence/feed/ \nhttps://huggingface.co/blog/feed.xml \nhttps://hnrss.org/newest?q=AI https://rss.arxiv.org/rss/cs.AI"
               }
             },
             "tool_mode": false
@@ -378,7 +378,7 @@
                 "trace_as_input": true,
                 "track_in_telemetry": false,
                 "type": "prompt",
-                "value": "Dưới đây là danh sách dữ liệu thô của các bản tin công nghệ thu thập trong 24 giờ qua:\n{context}\n\nNhiệm vụ của bạn:\n\nTrích xuất đúng 5 tin tức mang ý nghĩa đột phá hoặc có tầm ảnh hưởng lớn nhất.\n\nMỗi tin tức cung cấp 1 câu tiêu đề hấp dẫn bằng tiếng Việt, tiếp theo là tối đa 2 câu tóm tắt nội dung.\n\nTuyệt đối phải đính kèm đường dẫn URL gốc ngay dưới mỗi đoạn.\n\nQUAN TRỌNG: Chỉ sử dụng định dạng HTML cơ bản (các thẻ <b>, <i>, <a>) để làm nổi bật. Tuyệt đối không sử dụng định dạng Markdown (không dùng dấu sao *, dấu thăng #, hoặc dấu gạch dưới _)."
+                "value": "Dưới đây là danh sách dữ liệu thô của các bản tin công nghệ thu thập trong 24 giờ qua:\n{context}\n\nNhiệm vụ của bạn:\n\nTrích xuất tất cả nhưng tin mới nhất, và đặc biệt là tin tức mang ý nghĩa đột phá hoặc có tầm ảnh hưởng lớn nhất dối với ngành trí tuệ nhận tạo ( ví dụ như ra model mới hay sự kiện gì đó nổi bật, hoặc những thông tin mà 1 kĩ sư AI nên biết và chắc chắn phải biết khi người khác nhắc đến, nhưng thông báo mang tinh quyết định,....)\n\nMỗi tin tức cung cấp 1 câu tiêu đề hấp dẫn bằng tiếng Việt, tiếp theo là tối đa 2 câu tóm tắt nội dung.\n\nTuyệt đối phải đính kèm đường dẫn URL gốc ngay dưới mỗi đoạn.\n\nQUAN TRỌNG: Chỉ sử dụng định dạng HTML cơ bản (các thẻ <b>, <i>, <a>) để làm nổi bật. Tuyệt đối không sử dụng định dạng Markdown (không dùng dấu sao *, dấu thăng #, hoặc dấu gạch dưới _)."
               },
               "tool_placeholder": {
                 "_input_type": "MessageTextInput",
